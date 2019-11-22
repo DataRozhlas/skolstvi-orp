@@ -1,14 +1,16 @@
-title: "Mapa: Kde hrozí školní neúspěšnost? Ohrožena je polovina všech českých obcí"
-perex: "Exekuce, bytová nouze, špatné studijní výsledky. Úspěch českých dětí ovlivňují sociální nerovnosti, problémy se ale v jednotlivých regionech odlišně kombinují, vychází to ze sociologického průzkumu agentury PAQ Research. Server iROZHLAS.cz sestavil interaktivní mapu, která 206 obcí na základě dat dělí do čtyř unikátních kategorií. Nepříznivé vzdělávací podmínky jsou ve více než polovině ze všech zkoumaných měst."
+title: "Mapa: České vzdělávání trpí problémem regionálních nerovností. Neúspěch ohrožuje více než polovinu měst"
+perex: "Jak souvisejí exekuce a bytová nouze se studijními výsledky žáků základních škol zkoumali sociologové agentury PAQ Research. Úspěchy českých dětí dle nich výrazně ovlivňují sociální nerovnosti, problémy se ale v jednotlivých regionech odlišně kombinují. Jak vyplývá z interaktivní mapy, kterou připravil server iROZHLAS.cz, nepříznivé vzdělávací podmínky jsou ve více než polovině z 206 obcí s rozšířenou působností."
 coverimg: https://www.irozhlas.cz/sites/default/files/styles/zpravy_snowfall/public/uploader/ubytovna_usti_n_l_da_180615-144443_mda_0.jpg?itok=dimb8EO8
 coverimg_note: "Foto <a href='https://www.irozhlas.cz/michaela-danelova-5270376'>Michaela Danelová</a>"
 styles: ['https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css']
 libraries: ['https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js', 'https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.min.js', highcharts] #jquery, d3, highcharts, datatables
 options: [] #wide, noheader (, nopic)
 ---
-V krajích jako je Ústecko a Karlovarsko předčasně ukončí základní vzdělání 15 až 20 procent dětí, v Praze a bohatších částech Středočeského kraje je neúspěšnost minimální, do dvou procent. Příčiny nerovností tak dle sociologa Daniela Prokopa souvisejí se socioekonomickými problémy. 
+V krajích jako je Ústecko a Karlovarsko nedokončí základní vzdělání 15 až 20 procent dětí, v Praze a bohatších částech Středočeského kraje je neúspěšnost minimální, do dvou procent. Příčiny nerovností dle sociologa Daniela Prokopa souvisejí se socioekonomickými problémy. Neobjevují se ale jen na úrovni krajů, rozdíly jsou patrné i mezi jednotlivými obcemi s rozšířenou působností (ORF). 
 
-V unikátním průzkumu spojil na úrovni obcí s rozšířenou působností data o vzdělávacích problémech: počet absencí, studijní neúspěšnost, ukončování základní školní docházky před 9.ročníkem, s počty lidí v exekuci a bytové nouzi. 
+V unikátním průzkumu tak sociologové spojili data o vzdělávacích problémech: počet absencí, studijní neúspěšnost, ukončování základní školní docházky před 9.ročníkem, a porovnali je s počty lidí v exekuci a bytové nouzi.
+
+Na interaktivní mapě se můžete podívat, jak jsou na tom jednotlivé obce. Sociologové je rozdělili do čtyř kategorií.  
 
 <wide>
 	<div id="viz">
@@ -28,45 +30,34 @@ V unikátním průzkumu spojil na úrovni obcí s rozšířenou působností dat
 </wide>
 
 
-Necelá polovina - 94 obcí s rozšířenou působností (ORP) nemá žádný výrazný sociální ani vzdělávací problém. Na mapě jsou vyznačny modře. Naopak „červených“ měst, ve kterých je silné zatížení exekucemi, bytovými problémy i vysokou studijní neúspěšností, je 28. Velká část z nich v regionech, které jsou v rámci České republiky považovány za ekonomicky slabší. 
+Necelá polovina - 94 obcí, nemá žádný výrazný sociální ani vzdělávací problém. Na mapě jsou vyznačeny modře. Naopak „červených“ měst, ve kterých je silné zatížení exekucemi, bytovými problémy i vysokou studijní neúspěšností, je 28. Velká část z nich v regionech, které jsou v rámci České republiky považovány za ekonomicky slabší. V Karlovarském, Libereckém, Ústeckém, ale i v částech Moravskoslezského kraje. 
 
-V Karlovarském, Libereckém, Ústeckém, ale i v částech Moravskoslezského kraje. Právě poslední zmíněný kraj je ale dle Prokopa socioekonomickými problémy zasažen částmi jen středně. „Moravskoslezský kraj je diverzní. Příkladem je Ostrava, tam se problémy projevují jen v různých částech. Extrémně zatížená je ale například Bílina, Karviná nebo Orlová,“ uvedl Prokop.
+Právě poslední zmíněný je ale dle Prokopa z pohledu socioekonomických problémů diverzní. „Příkladem je Ostrava, tam se problémy projevují jen v různých částech. Extrémně zatížená je ale například Bílina, Karviná nebo Orlová,“ vysvětluje Prokop.
 
-Zbylých 84 ORP se dělí do dvou specifických kategorií. 
+„Chudoba může mít na děti vliv, pokud způsobuje v rodině hádky. Právě exekuce často mohou posilovat stres v rodině,“ vysvětluje Prokop.
 
-Ve 44 obcích se kombinuje častá bytová nouze s vysokým počtem školních absencí. Tyto oblasti, na mapě znázorněny oranžovou barvou, ale nejsou extrémně sociálně zatížené např. zmíněnými exekucemi. „Zřejmě dochází k tomu, že se neřešená bytová otázka promítá do vzdělávacího systému, děti mají vyšší počet absencí, je pro ně těžké se učivo doučit, propadají. Jsou tam některé obce ze severozápadu, ale i města a obce ze Středočeského kraje, které neefektivně řeší otázku bydlení – Příbram a Kladno,“ vysvětluje Prokop.
+V průzkumu se vyprofilovaly dle sociologů dvě specifické kategorie.
 
-V průzkumu se pak vyprofilovalo 40 oblastí, u kterých vzdělávání k překvapení sociologů zaostává za jejich sociálním statusem. Příkladem jsou odlehlejší části Plzeňského a Jihočeského kraje, ale také středně velká města ekonomicky silných krajů, Český brod, Mladá Boleslav, Rakovník, Jindřichův Hradec, či Třeboň. 
+Ve 44 obcích se kombinuje častá bytová nouze s vysokým počtem školních absencí. Tyto oblasti, na mapě znázorněny oranžovou barvou, ale nejsou extrémně sociálně zatížené např. zmíněnými exekucemi. 
+
+„Zřejmě dochází k tomu, že se neřešená bytová otázka promítá do vzdělávacího systému. Děti mají vyšší počet absencí, je pro ně těžké se učivo doučit, propadají. Ukazuje se tak, že děti z chudých rodin mají horší školní výsledky ne proto, že mají na účtu méně peněz, ale protože se to může projevovat do nestability jejich bydlení. Pokud bydlí v nebytových domácnostech, pokud se často stěhují, mění školy,“ dodává Prokop. Do této kategorie spadají i některá města ekonomicky stabilního Středočeského kraje, která ale neefektivně řeší otázku bydlení – Příbram a Kladno.
+
+Překvapením je 40 obcí, u kterých vzdělávání naopak zaostává za jejich sociálním statusem. Příkladem jsou odlehlejší části Plzeňského a Jihočeského kraje, ale i středně velká města ekonomicky silných částí republiky - Český brod, Mladá Boleslav, Rakovník, či Jindřichův Hradec.
 
 Problém nejen školství
 
 Výsledky tak potvrzují zjištění mezinárodního srovnání PISA, které dlouhodobě uvádí, že sociální status kvalitu vzdělání českých dětí silně ovlivňuje. Zároveň ale Prokop upozorňuje na křehkost sociologických korelací. „U sociologických analýz silné vztahy nebývají, ale tady je korelace mezi odhadovaným počtem rodičů v exekuci a počtem dětí, které mají vzdělávací problémy, přibližně 0,7, což je velmi silný vztah,“ vysvětluje. 
 
-Spojitost socilogové přisuzují také počtu dětí v bytové nouzi a míře vzdělávacích problémů v jednotlivých obcích. „Ukazuje to, že se v zatížených krajích musí řešit také problémy dětí v nevzdělávací oblasti,“ vysvětluje Prokop. 
+Spojitost sociologové přisuzují také počtu dětí v bytové nouzi a míře vzdělávacích problémů v jednotlivých obcích. „Ukazuje to, že se v zatížených krajích musí řešit také problémy dětí v nevzdělávací oblasti,“ vysvětluje Prokop. 
 
-Jedním z největších problémů ale zůstává podfinancování podpůrných služeb. V rámci škol dlouhodobě chybí dostatek školních psychologů, speciálních pedagogů, podpůrných asistentů. „V Karlovarském kraji jsou jen jednotky školních psychologů. V Praze má naopak řada škol vlastního školního psychologa,“ říká Prokop.
-
-STRATEGIE 2030
-
-„Děti z chudých rodin mají horší školní výsledky ne proto, že mají na účtu méně peněz, ale protože se to může projevovat do nestability jejich bydlení. Pokud bydlí v nebytových domácnostech, pokud se často stěhují, mění školy atp,“ dodává Prokop.
-
-S těmito problémy úzce souvisí segregace ve školství, na kterou upozorňuje Agentura pro sociální začlěňování. „Opakovaně se o  nerovnostech ve vzdělávání mluví i  v  souvislosti s  žáky ze sociálně vyloučeného prostředí. Úroveň vzdělanosti se dokonce generaci od generaci snižuje. Školství v České republice se také stále potýká s dědictvím zvláštních škol a přeřazování romských dětí mimo hlavní vzdělanostní proud,“ analýza segregace. 
+TADY SE JEŠTĚ VYMYSLÍ VÍC SMOOTH PŘECHOD, VYJÁDŘÍ SE AGENTURA PRO SOC.ZAČ.: S těmito problémy úzce souvisí segregace ve školství, na kterou upozorňuje Agentura pro sociální začleňování. „Opakovaně se o  nerovnostech ve vzdělávání mluví i  v  souvislosti s  žáky ze sociálně vyloučeného prostředí. Úroveň vzdělanosti se dokonce generaci od generaci snižuje. Školství v České republice se také stále potýká s dědictvím zvláštních škol a přeřazování romských dětí mimo hlavní vzdělanostní proud,“ analýza segregace. 
 
 Regionálně specifická opatření 
 
-Odlišnost problémů si dle Prokopa žádá regionálně specifická opatření. „V těch 28 extrémně zatížených obcích jsou nutné intervence: oddlužení, vytvoření sociálního bydlení, posílení učitelského stavu, nepadagogických pracovníků apod.,“ vysvětluje. 
+Odlišnost problémů si dle Prokopa žádá regionálně specifická opatření. „V extrémně zatížených obcích, kterých jsme identifikovali 28, jsou nutné intervence: oddlužení, vytvoření sociálního bydlení, posílení učitelského stavu, nepedagogických pracovníků apod.,“ vysvětluje. 
 
-Řešení Prokop ale vidí také v posílení pracovníků nevzdělávací oblasti. „Rozvody, dopady nekvalitního bydlení, stres dětí, apod. Odbornící na tyto problémy by se měli snažit pomáhat v kooperaci s dalšími službami, s Orgánem sociálně-právní ochrany dětí (OSPOD) obcí apod.“
+V rámci českého školství dlouhodobě chybí dostatek školních psychologů, speciálních pedagogů, podpůrných asistentů. Problém je ale i v jejich nerovnoměrném rozmístění. „V Karlovarském kraji jsou jen jednotky školních psychologů. V Praze má naopak řada škol vlastního školního psychologa,“ upozorňuje Prokop. Tito odborníci by dle něj měli pomáhat v kooperaci s Orgánem sociálně-právní ochrany dětí (OSPOD) jednotlivých obcí, který má za úkol zmíněné problémy řešit.
 
-Nyní se OSPOD zaměřuje na extrémní případy, oproti zahraničí, kde se zaměřují právě na prevenci. „Kontrolují více absence, pracují se školou, aby dítě dohánělo problémy. To tady trochu chybí,“ říká Prokop. 
+Nyní se ale dle Prokopa OSPOD zabývá extrémními případy, oproti zahraničí, kde se zaměřují na prevenci. „Kontrolují více absence, pracují se školou,aby dítě dohánělo problémy. To tady trochu chybí,“ dodává. Za důležité vnímá také posílení komunikce mezi jednotlivými školami v kraji, sdílení kapacit či efektivnější přidělování dotací.
 
-Segregace na školách
-analýza a od
-
-
-
-
-
-
-
-
+TADY VYJÁDŘENÍ OSPOD, v úterý
