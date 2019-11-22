@@ -1,4 +1,4 @@
-import { drawInfo } from "./shared"
+import { drawInfo, varNames } from "./shared"
 
 export function drawChart(data, xID, yID) {
     Highcharts.chart('corchart', {
@@ -16,14 +16,14 @@ export function drawChart(data, xID, yID) {
         xAxis: {
             title: {
                 enabled: true,
-                text: xID
+                text: varNames[xID]
             },
             endOnTick: true,
             showLastLabel: true
         },
         yAxis: {
             title: {
-                text: yID
+                text: varNames[yID]
             }
         },
         legend: {

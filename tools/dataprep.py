@@ -9,7 +9,6 @@ vals = {
     'ZSK_FINE_POD': 'Podíl předčasných ukončení povinné školní docházky (tj. v 7. a v 8. ročníku)',
     'CSI_ZMES_HOD_MEAN': 'Počet zameškaných hodin na žáka',
     'CSI_NEPR_POD': 'Podíl neprospívajících žáků (v %)',
-    'ROZ_HMRO5YR': 'Hrubá míra rozvodovosti za posledních 5 let (průměr)',
     'LCA4': 'kategorie',
 }
 

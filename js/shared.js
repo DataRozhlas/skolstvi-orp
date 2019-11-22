@@ -1,10 +1,18 @@
 import { topodata } from "./data"
 
 export const cats = {
-    '1': 'nejlepší situace',
-    '2': 'nejhorší situace',
-    '3': 'častá bytová nouze a školní absence',
-    '4': 'školství mírně zaostává za ekonomikou',
+    '1': 'silné regiony (omezené sociální problémy i vzdělávací neúspěšnost)',
+    '2': 'znevýhodněné regiony (velké sociální problémy i vzdělávací neúspěšnost)',
+    '3': 'kombinace dílčích problémů (často bytová nouze a školní absence)',
+    '4': 'vzdělávání mírně zaostává za sociální situací',
+}
+
+export const varNames = {
+  'BYD_CDC_POD': 'Podíl dětí v bytové nouzi (%)',
+  'EXE_EXROD_POD': 'Podíl rodičů v exekuci (%)',
+  'ZSK_FINE_POD': 'Předčasně skončená školní docházka (%)', 
+  'CSI_ZMES_HOD_MEAN': 'Počet zameškaných hodin na žáka', 
+  'CSI_NEPR_POD': 'Podíl neprospívajících žáků (%)',
 }
 
 export function getLCA4Col(cat) {
@@ -22,5 +30,10 @@ export function getLCA4Col(cat) {
 
 export function drawInfo(orp, xID, yID) {
   const info = topodata.objects.orp_ruian.geometries.filter(g => g.properties.orp_kod == orp)[0].properties
-  document.getElementById('ttip').innerHTML = `<b>${info.Nazev}</b><br><span style="font-style: italic; color: ${getLCA4Col(info.LCA4)};">${cats[info.LCA4]}</span><br>${xID}: ${ Math.round(info[xID] * 1000) / 10 } %<br>${yID}: ${ Math.round(info[yID] * 1000) / 10 } %`
+  document.getElementById('ttip').innerHTML = `<b>${info.Nazev}</b><br><span style="font-style: italic; color: ${getLCA4Col(info.LCA4)};">${cats[info.LCA4]}</span>` 
+  + `<br>Podíl dětí v bytové nouzi: ${ Math.round(info.BYD_CDC_POD * 1000) / 10 } %`
+  + `<br>Podíl rodičů v exekuci: ${ Math.round(info.EXE_EXROD_POD * 1000) / 10 } %`
+  + `<br>Podíl neprospívajících žáků: ${ Math.round(info.CSI_NEPR_POD * 1000) / 10 } %`
+  + `<br>Počet zameškaných hodin na žáka: ${ Math.round(info.CSI_ZMES_HOD_MEAN * 10) / 10 }`
+  + `<br>Podíl předčasných ukončení povinné školní docházky: ${ Math.round(info.ZSK_FINE_POD * 1000) / 10 } %`
 }

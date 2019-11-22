@@ -16,7 +16,7 @@ Red leicester cheese and biscuits queso. Fromage feta cheesy grin chalk and chee
 			<select id="tsel">
 				<option value="CSI_NEPR_POD|BYD_CDC_POD">Neprospívající žáci a děti v bytové nouzi</option>
 				<option value="CSI_NEPR_POD|EXE_EXROD_POD">Neprospívající žáci a rodiče v exekuci</option>
-				<option value="CSI_NEPR_POD|ROZ_HMRO5YR">Neprospívající žáci a rozvodovost</option>
+				<option value="CSI_ZMES_HOD_MEAN|ZSK_FINE_POD">Průměrné zameškané hodiny a žáci s nedokončeným vzděláním</option>
 				</select>
 			</div>
 			<div id="corchart"></div>
