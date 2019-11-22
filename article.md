@@ -10,7 +10,7 @@ V krajích jako je Ústecko a Karlovarsko nedokončí základní vzdělání 15 
 
 V unikátním průzkumu tak sociologové spojili data o vzdělávacích problémech: počet absencí, studijní neúspěšnost, ukončování základní školní docházky před 9.ročníkem, a porovnali je s počty lidí v exekuci a bytové nouzi.
 
-Na interaktivní mapě se můžete podívat, jak jsou na tom jednotlivé obce. Sociologové je rozdělili do čtyř kategorií.  
+Na interaktivní mapě se můžete podívat, jak jsou na tom jednotlivé obce. Sociologové je rozdělili do čtyř kategorií.
 
 <wide>
 	<div id="viz">
@@ -18,9 +18,12 @@ Na interaktivní mapě se můžete podívat, jak jsou na tom jednotlivé obce. S
 		<div id="chartbox">
 			<div id="topicsel">
 			<select id="tsel">
-				<option value="CSI_NEPR_POD|BYD_CDC_POD">Neprospívající žáci a děti v bytové nouzi</option>
-				<option value="CSI_NEPR_POD|EXE_EXROD_POD">Neprospívající žáci a rodiče v exekuci</option>
-				<option value="CSI_ZMES_HOD_MEAN|ZSK_FINE_POD">Průměrné zameškané hodiny a žáci s nedokončeným vzděláním</option>
+				<option value="EXE_EXROD_POD|CSI_NEPR_POD">Rodiče v exekuci a neprospívající žáci</option>
+				<option value="EXE_EXROD_POD|CSI_ZMES_HOD_MEAN">Rodiče v exekuci a absence žáků</option>
+				<option value="EXE_EXROD_POD|ZSK_FINE_POD">Rodiče v exekuci a žáci s nedokončeným vzděláním</option>
+				<option value="BYD_CDC_POD|CSI_NEPR_POD">Děti v bytové nouzi a neprospívající žáci</option>
+				<option value="BYD_CDC_POD|CSI_ZMES_HOD_MEAN">Děti v bytové nouzi a absence žáků</option>
+				<option value="BYD_CDC_POD|ZSK_FINE_POD">Děti v bytové nouzi a žáci s nedokončeným vzděláním</option>
 				</select>
 			</div>
 			<div id="corchart"></div>
@@ -28,7 +31,6 @@ Na interaktivní mapě se můžete podívat, jak jsou na tom jednotlivé obce. S
 	</div>
 	<div id="ttip">Vyberte obec na mapě nebo v grafu.</div>
 </wide>
-
 
 Necelá polovina - 94 obcí, nemá žádný výrazný sociální ani vzdělávací problém. Na mapě jsou vyznačeny modře. Naopak „červených“ měst, ve kterých je silné zatížení exekucemi, bytovými problémy i vysokou studijní neúspěšností, je 28. Velká část z nich v regionech, které jsou v rámci České republiky považovány za ekonomicky slabší. V Karlovarském, Libereckém, Ústeckém, ale i v částech Moravskoslezského kraje. 
 
@@ -44,7 +46,7 @@ Ve 44 obcích se kombinuje častá bytová nouze s vysokým počtem školních a
 
 Překvapením je 40 obcí, u kterých vzdělávání naopak zaostává za jejich sociálním statusem. Příkladem jsou odlehlejší části Plzeňského a Jihočeského kraje, ale i středně velká města ekonomicky silných částí republiky - Český brod, Mladá Boleslav, Rakovník, či Jindřichův Hradec.
 
-Problém nejen školství
+## Problém nejen školství
 
 Výsledky tak potvrzují zjištění mezinárodního srovnání PISA, které dlouhodobě uvádí, že sociální status kvalitu vzdělání českých dětí silně ovlivňuje. Zároveň ale Prokop upozorňuje na křehkost sociologických korelací. „U sociologických analýz silné vztahy nebývají, ale tady je korelace mezi odhadovaným počtem rodičů v exekuci a počtem dětí, které mají vzdělávací problémy, přibližně 0,7, což je velmi silný vztah,“ vysvětluje. 
 
@@ -52,12 +54,12 @@ Spojitost sociologové přisuzují také počtu dětí v bytové nouzi a míře 
 
 TADY SE JEŠTĚ VYMYSLÍ VÍC SMOOTH PŘECHOD, VYJÁDŘÍ SE AGENTURA PRO SOC.ZAČ.: S těmito problémy úzce souvisí segregace ve školství, na kterou upozorňuje Agentura pro sociální začleňování. „Opakovaně se o  nerovnostech ve vzdělávání mluví i  v  souvislosti s  žáky ze sociálně vyloučeného prostředí. Úroveň vzdělanosti se dokonce generaci od generaci snižuje. Školství v České republice se také stále potýká s dědictvím zvláštních škol a přeřazování romských dětí mimo hlavní vzdělanostní proud,“ analýza segregace. 
 
-Regionálně specifická opatření 
+## Regionálně specifická opatření 
 
 Odlišnost problémů si dle Prokopa žádá regionálně specifická opatření. „V extrémně zatížených obcích, kterých jsme identifikovali 28, jsou nutné intervence: oddlužení, vytvoření sociálního bydlení, posílení učitelského stavu, nepedagogických pracovníků apod.,“ vysvětluje. 
 
 V rámci českého školství dlouhodobě chybí dostatek školních psychologů, speciálních pedagogů, podpůrných asistentů. Problém je ale i v jejich nerovnoměrném rozmístění. „V Karlovarském kraji jsou jen jednotky školních psychologů. V Praze má naopak řada škol vlastního školního psychologa,“ upozorňuje Prokop. Tito odborníci by dle něj měli pomáhat v kooperaci s Orgánem sociálně-právní ochrany dětí (OSPOD) jednotlivých obcí, který má za úkol zmíněné problémy řešit.
 
-Nyní se ale dle Prokopa OSPOD zabývá extrémními případy, oproti zahraničí, kde se zaměřují na prevenci. „Kontrolují více absence, pracují se školou,aby dítě dohánělo problémy. To tady trochu chybí,“ dodává. Za důležité vnímá také posílení komunikce mezi jednotlivými školami v kraji, sdílení kapacit či efektivnější přidělování dotací.
+Nyní se ale dle Prokopa OSPOD zabývá extrémními případy, oproti zahraničí, kde se zaměřují na prevenci. „Kontrolují více absence, pracují se školou,aby dítě dohánělo problémy. To tady trochu chybí,“ dodává. Za důležité vnímá také posílení komunikace mezi jednotlivými školami v kraji, sdílení kapacit či efektivnější přidělování dotací.
 
 TADY VYJÁDŘENÍ OSPOD, v úterý

@@ -73,8 +73,8 @@ function makeChart(data, corr1, corr2) {
     drawChart(outData, corr1, corr2)
 }
 
-let xID = 'CSI_NEPR_POD'
-let yID = 'BYD_CDC_POD'
+let xID = 'EXE_EXROD_POD'
+let yID = 'CSI_NEPR_POD'
 
 tema.addData(topodata)
 makeChart(topodata, xID, yID)
