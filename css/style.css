@@ -19,19 +19,23 @@
     height: inherit;
 }
 
-
+#tsel {
+    max-width: 100%;
+}
 
 .highcharts-tooltip {
     visibility:hidden;
 }
 
 #topicsel {
+    max-width: 100%;
     text-align: center;
+    margin: 3px;
 }
 
 #ttip {
     min-height: 170px;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-bottom: 20px;
 }
 
@@ -41,5 +45,8 @@
     }
     #ttip {
         min-height: 0px;
+    }
+    #chartbox {
+        display: none;
     }
   }

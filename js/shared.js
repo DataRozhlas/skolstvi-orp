@@ -35,5 +35,5 @@ export function drawInfo(orp, xID, yID) {
   + `<br>Podíl rodičů v exekuci: ${ Math.round(info.EXE_EXROD_POD * 1000) / 10 } %`
   + `<br>Podíl neprospívajících žáků: ${ Math.round(info.CSI_NEPR_POD * 1000) / 10 } %`
   + `<br>Počet zameškaných hodin na žáka: ${ Math.round(info.CSI_ZMES_HOD_MEAN * 10) / 10 }`
-  + `<br>Podíl předčasných ukončení povinné školní docházky: ${ Math.round(info.ZSK_FINE_POD * 1000) / 10 } %`
+  + `<br>Podíl předčasných ukončení povinné školní docházky: ${ Math.round(info.ZSK_FINE_POD * 100) } %`
 }

@@ -17,13 +17,13 @@ _Na interaktivní mapě se můžete podívat, jak se socioekonomické problémy 
 		<div id="mapa"></div>
 		<div id="chartbox">
 			<div id="topicsel">
-			<select id="tsel">
-				<option value="EXE_EXROD_POD|CSI_NEPR_POD">Rodiče v exekuci a neprospívající žáci</option>
-				<option value="EXE_EXROD_POD|CSI_ZMES_HOD_MEAN">Rodiče v exekuci a absence žáků</option>
-				<option value="EXE_EXROD_POD|ZSK_FINE_POD">Rodiče v exekuci a žáci s nedokončeným vzděláním</option>
-				<option value="BYD_CDC_POD|CSI_NEPR_POD">Děti v bytové nouzi a neprospívající žáci</option>
-				<option value="BYD_CDC_POD|CSI_ZMES_HOD_MEAN">Děti v bytové nouzi a absence žáků</option>
-				<option value="BYD_CDC_POD|ZSK_FINE_POD">Děti v bytové nouzi a žáci s nedokončeným vzděláním</option>
+				<select id="tsel">
+					<option value="EXE_EXROD_POD|CSI_NEPR_POD">Rodiče v exekuci a neprospívající žáci</option>
+					<option value="EXE_EXROD_POD|CSI_ZMES_HOD_MEAN">Rodiče v exekuci a absence žáků</option>
+					<option value="EXE_EXROD_POD|ZSK_FINE_POD">Rodiče v exekuci a žáci s nedokončeným vzděláním</option>
+					<option value="BYD_CDC_POD|CSI_NEPR_POD">Děti v bytové nouzi a neprospívající žáci</option>
+					<option value="BYD_CDC_POD|CSI_ZMES_HOD_MEAN">Děti v bytové nouzi a absence žáků</option>
+					<option value="BYD_CDC_POD|ZSK_FINE_POD">Děti v bytové nouzi a žáci s nedokončeným vzděláním</option>
 				</select>
 			</div>
 			<div id="corchart"></div>

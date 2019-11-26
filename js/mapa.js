@@ -9,7 +9,7 @@ map.fitBounds([
   [51.041394, 18.940430], //phorni
   [48.560250, 12.062988], //lspodni 
 ])
-map.dragging.disable();
+//map.dragging.disable();
 map.touchZoom.disable();
 map.doubleClickZoom.disable();
 map.scrollWheelZoom.disable();
