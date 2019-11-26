@@ -13,7 +13,7 @@ vals = {
 }
 
 #%%
-d = pd.read_csv('./scratch/DETI_MAPA_ORP_v04.csv', sep=';', decimal=',', index_col='ORP_KOD')
+d = pd.read_csv('./scratch/DETI_MAPA_ORP_v07.csv', sep=';', decimal=',', index_col='ORP_KOD')
 d = d[list(vals.keys())].to_dict(orient='index')
 
 #%%

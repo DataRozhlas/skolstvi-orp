@@ -58,13 +58,21 @@ let tema = L.topoJson(null, {
   }
 }).addTo(map);
 
+function timesHun(id, val) {
+  if (id === 'CSI_ZMES_HOD_MEAN') {
+    return val
+  } else {
+    return val * 100
+  }
+}
+
 function makeChart(data, corr1, corr2) {
     let outData = []
     data.objects.orp_ruian.geometries.forEach(g => {
         outData.push({
             'name': g.properties.Nazev,
-            'x': g.properties[corr1] * 100,
-            'y': g.properties[corr2] * 100,
+            'x': timesHun(corr1, g.properties[corr1]),
+            'y': timesHun(corr2, g.properties[corr2]),
             'lca4': g.properties.LCA4,
             'color': getLCA4Col(g.properties.LCA4),
             'orp_kod': g.properties.orp_kod,
