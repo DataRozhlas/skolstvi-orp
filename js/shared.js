@@ -31,9 +31,9 @@ export function getLCA4Col(cat) {
 export function drawInfo(orp, xID, yID) {
   const info = topodata.objects.orp_ruian.geometries.filter(g => g.properties.orp_kod == orp)[0].properties
   document.getElementById('ttip').innerHTML = `<b>${info.Nazev}</b><br><span style="font-style: italic; color: ${getLCA4Col(info.LCA4)};">${cats[info.LCA4]}</span>` 
-  + `<br>Podíl dětí v bytové nouzi: ${ Math.round(info.BYD_CDC_POD * 1000) / 10 } %`
-  + `<br>Podíl rodičů v exekuci: ${ Math.round(info.EXE_EXROD_POD * 1000) / 10 } %`
-  + `<br>Podíl neprospívajících žáků: ${ Math.round(info.CSI_NEPR_POD * 1000) / 10 } %`
-  + `<br>Počet zameškaných hodin na žáka: ${ Math.round(info.CSI_ZMES_HOD_MEAN * 10) / 10 }`
-  + `<br>Podíl předčasných ukončení povinné školní docházky: ${ Math.round(info.ZSK_FINE_POD * 100) } %`
+  + `<br>Podíl dětí v bytové nouzi: ${ String(Math.round(info.BYD_CDC_POD * 1000) / 10).replace('.', ',') } %`
+  + `<br>Podíl rodičů v exekuci: ${ String(Math.round(info.EXE_EXROD_POD * 1000) / 10).replace('.', ',') } %`
+  + `<br>Podíl neprospívajících žáků: ${ String(Math.round(info.CSI_NEPR_POD * 1000) / 10).replace('.', ',') } %`
+  + `<br>Počet zameškaných hodin na žáka: ${ String(Math.round(info.CSI_ZMES_HOD_MEAN * 10) / 10).replace('.', ',') }`
+  + `<br>Podíl předčasných ukončení povinné školní docházky: ${ String(Math.round(info.ZSK_FINE_POD * 100)).replace('.', ',') } %`
 }
