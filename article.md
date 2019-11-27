@@ -1,4 +1,4 @@
-title: ",Nemají kde spát, natož se kde učit.’ Projděte si unikátní mapu vzdělávacích podmínek v Česku"
+title: ",Nemají kde spát, natož kde se učit.’ Projděte si unikátní mapu vzdělávacích podmínek v Česku"
 perex: "Studijní úspěchy českých dětí výrazně souvisejí se sociálními problémy, jakými jsou exekuce či bytová nouze. Ukázala to analýza sociologů agentury PAQ Research, kteří se zaměřili na jednotlivé regiony Česka. Z interaktivní mapy, kterou připravil server iROZHLAS.cz, vyplývá, že nepříznivé vzdělávací podmínky jsou zhruba ve třetině z 206 obcí s rozšířenou působností. V řadě z nich je pak neúspěšnost vyšší, než by odpovídalo sociální situaci."
 coverimg: https://www.irozhlas.cz/sites/default/files/styles/zpravy_snowfall/public/uploader/ubytovna_191126-230351_bar.jpg?itok=8a_47zgV
 coverimg_note: "Foto <a href='https://www.irozhlas.cz/michaela-danelova-5270376'>Michaela Danelová</a>"
@@ -54,6 +54,10 @@ Překvapením je 39 obcí, u kterých vzdělávání naopak mírně zaostává z
 
 „Odhadujeme, že v roce 2017 byl v exekuci až každý šestý až sedmý rodič  s dítětem v domácnosti. V dospělé populaci mělo exekuce „jen“ 9,3 procent, ale časté jsou mezi lidmi v rodičovském věku 30 až 60 let, naopak zřídka se vyskytují u mladších a starších. Z věkové struktury rodičovství lze odhadovat, že exekuci mělo okolo 16 procent rodičů,“ popisuje sociolog z PAQ Research Michal Kunc.
 
+<left>
+Sociologové PAQ Reserach analýzu zpracovali u příležitosti konference <a href="https://www.aspeninstitute.org/">Aspen Institut Central Europe</a>, za podpory nadace Bader Foundation.
+</left>
+
 A počet exekuovaných rodičů a dětí v bytové nouzi – tedy žijících na ubytovnách, v azylových domech či v extrémně nevyhovujících podmínkách - výrazně souvisí se školní neúspěšností. „Nevyplývá z toho sice, že jde o přímý důsledek bydlení a exekucí, ale zahraniční i některé české výzkumy ukazují, že v rámci chudé populace mají horší úspěšnost ve vzdělávání děti, které žijí v nebytovém bydlení či často mění školy nebo jsou jejich rodiny ve vyšším stresu a izolaci – například kvůli předlužení. Chudoba se do školních problémů neprojevuje číslem na účtu, ale těmito faktory,“ vysvětluje Daniel Prokop.
 
 „V azylových domech či ubytovnách mnohdy chybí základní vybavení pro fungování domácností, jsou tam sdílené koupelny či kuchyně. V případech ubytoven se častěji objevují nemoci, štěnice, švábi. Děti nemají vlastní pokoj, celá rodina žije z pravidla v jedné místnosti. Děti tedy nemají nejen prostor na učení, ale ani na to, aby se normálně vyspaly,“ dodává Klusáček. 
@@ -62,11 +66,11 @@ A počet exekuovaných rodičů a dětí v bytové nouzi – tedy žijících na
 
 Výsledky tak potvrzují zjištění mezinárodního srovnání PISA, které dlouhodobě uvádí, že sociální status rodin a škol kvalitu vzdělání českých dětí silně ovlivňuje. 
 
-<left>
+<right>
 <p>„U sociologických analýz silné vztahy nebývají, ale tady je korelace mezi odhadovaným počtem rodičů v exekuci a počtem dětí, které mají vzdělávací problémy, přibližně 0,7 a u bytové nouze okolo 0,6, což je velmi silný vztah,“ vysvětluje Daniel Prokop.</p>
 
 <p>Vliv na neprospívající žáky naopak nemá například rozvodovost nebo dostupnost mateřských škol v jednotlivých regionech.</p>
-</left>
+</right>
 
 Podle sociologů to naznačuje, že obrovské regionální nerovnosti ve vzdělávání nemůže vyřešit školství samo. „Ukazuje to, že se v zatížených krajích musí řešit také problémy dětí v nevzdělávací oblasti,“ říká Prokop.
 
@@ -78,7 +82,6 @@ S těmito problémy úzce souvisí také segregace ve školství, na kterou upoz
 
 Odlišnost problémů si podle Prokopa žádá regionálně specifická opatření. „V extrémně zatížených obcích, kterých jsme identifikovali 28, jsou nutné intervence na všech frontách oddlužení, vytvoření sociálního bydlení a stabilizace rodin, posílení učitelského stavu, nepedagogických pracovníků,“ tvrdí.
 
-<right>Sociologové PAQ Reserach analýzu zpracovali u příležitosti konference Aspen Institut, za podpory nadace Bader Foundation.</right>
 
 V rámci českého školství dlouhodobě chybí dostatek školních psychologů, speciálních pedagogů, podpůrných asistentů. Problém je ale i v jejich nerovnoměrném rozmístění. „V Karlovarském kraji jsou na základních školách jen jednotky školních psychologů. V Praze má naopak řada škol vlastního školního psychologa,“ upozorňuje Prokop. Tito odborníci by podle něj měli pomáhat v kooperaci s Orgánem sociálně-právní ochrany dětí (OSPOD) jednotlivých obcí, který má za úkol zmíněné problémy řešit.
 
